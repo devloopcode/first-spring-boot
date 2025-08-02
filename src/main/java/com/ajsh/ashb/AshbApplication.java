@@ -9,8 +9,8 @@ public class AshbApplication {
 	public static void main(String[] args) {
 		var ctx = SpringApplication.run(AshbApplication.class, args);
 
-		MyFirstClass myFirstClass = ctx.getBean("myBean", MyFirstClass.class);
-		System.out.println(myFirstClass.sayHey());
+		MyFirstService myFirstService = ctx.getBean(MyFirstService.class );
+		System.out.println(myFirstService.getString());
 	}
 
 }
