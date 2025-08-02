@@ -3,15 +3,13 @@ package com.ajsh.ashb;
 
 public class MyFirstClass {
 
-//    private String myVar;
-//
-//    public MyFirstClass(String myVar) {
-//        this.myVar = myVar;
-//    }
+    private String myVar;
+
+    public MyFirstClass(String myVar) {
+        this.myVar = myVar;
+    }
 
     public String sayHey() {
-        return "Hey There";
-//        return "Hey There >>> myVar =  " + myVar;
-
+        return "Hey There >>> myVar =  " + myVar;
     }
 }
