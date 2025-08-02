@@ -11,6 +11,8 @@ public class AshbApplication {
 
 		MyFirstService myFirstService = ctx.getBean(MyFirstService.class );
 		System.out.println(myFirstService.getString());
+		System.out.println(myFirstService.getCustomVar());
+		System.out.println(myFirstService.getCustomVarDev());
 	}
 
 }
